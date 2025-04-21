@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cool Scoops Ice Cream</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: sandybrown;
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .link-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: rgba(0, 255, 76, 0.237);
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: pink;
+        }
+
+        .flavors {
+            background-color: #a9994d72;
+            padding: 20px;
+        }
+
+        .flavors h2 {
+            text-align: center;
+        }
+
+        .flavor-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .flavor {
+            background-color: palevioletred;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .flavor img {
+            height: 250px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .about {
+            background-color: yellow;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .contact {
+            background-color: burlywood ;
+            padding: 30px;
+        }
+
+        .contact h2 {
+            text-align: center;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid lawngreen;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: beige;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color:coral;
+        }
+
+        iframe {
+            width: 80%;
+            height: 300px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Cool Scoops Ice Cream</h1>
+        <p>Deliciously cool treats for every sweet tooth!</p>
+        <button class="link-button">Explore Flavors</button>
+    </div>
+
+    <div class="flavors" id="flavors">
+        <h2>Our Favorite Flavors</h2>
+        <div class="flavor-list">
+            <div class="flavor" style="background-color: rgba(222, 144, 135, 0.679)">
+                <img src="Images/Strawberry_Swirl.jpg" alt="Strawberry Swirl" >
+                <h3>Strawberry Swirl</h3>
+                <p>Fresh strawberries blended in creamy delight.</p>
+                <button class="link-button">Order Now</button>
+            </div>
+            <div class="flavor" style="background-color:rgba(224, 244, 96, 0.782);">
+                <img src="Images/Mint_Choco_Chip.jpg" alt="Mint Chocolate Chip">
+                <h3>Mint Chocolate Chip</h3>
+                <p>Cool mint with crunchy chocolate chips.</p>
+                <button class="link-button">Order Now</button>
+            </div>
+            <div class="flavor" style="background-color: rgba(135, 235, 165, 0.538);">
+                <img src="Images/Blueberry_Bliss.jpg" alt="Blueberry_Bliss">
+                <h3>Blueberry Bliss</h3>
+                <p>A tangy-sweet blueberry treat!</p><br/>
+                <button class="link-button">Order Now</button>
+            </div>
+            <div class="flavor" style="background-color: #fdffb6;">
+                <img src="Images/Lemon_Zest.jpg" alt="Lemon Zest">
+                <h3>Lemon Zest</h3>
+                <p>A refreshing citrusy flavor with a tangy twist.</p>
+                <button class="link-button">Order Now</button>
+            </div>
+            <div class="flavor" style="background-color: #ffd6a5;">
+                <img src="Images/Caramel_Crunch.jpg" alt="Caramel Crunch">
+                <h3>Caramel Crunch</h3>
+                <p>Rich caramel swirls with a satisfying cookie crunch.</p>
+                <button class="link-button">Order Now</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="about">
+        <h2>About Us</h2>
+        <p>Cool Scoops has been serving happiness in scoops since 1998. Come chill with us and try over 30 unique flavors made with love!</p>
+        <button class="link-button">Learn More</button>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    
+    <div class="footer">
+        <p>&copy; 2025 Cool Scoops Ice Cream. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
